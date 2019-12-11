@@ -5,7 +5,7 @@
  * Copyright 2019 shpontex
  * Released under the MIT license
  *
- * Date: 2019-11-12T07:19:06.916Z
+ * Date: 2019-12-11T09:35:56.508Z
  */
 .cropme-wrapper {
   width: 100%;
@@ -19,7 +19,8 @@
     width: initial !important;
     cursor: move;
     opacity: 0;
-    touch-action: none; }
+    touch-action: none;
+    filter: blur(0px); }
 
 #img {
   border: 5px solid #f00; }
