@@ -399,7 +399,6 @@
     } else {
       ctx.translate(-width / 2 + tx, -height / 2 + ty)
     }
-    ctx.imageSmoothingEnabled = false;
     ctx.drawImage(this.properties.image, x, y, imageData.width * xs, imageData.height * ys)
 
     if (this.options.viewport.type === 'circle') {

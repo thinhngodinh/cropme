@@ -5,14 +5,14 @@
  * Copyright 2019 shpontex
  * Released under the MIT license
  *
- * Date: 2019-12-11T09:35:56.508Z
+ * Date: 2019-12-11T10:25:40.455Z
  */
 
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
   (global = global || self, global.Cropme = factory());
-}(this, (function () { 'use strict';
+}(this, function () { 'use strict';
 
   function _typeof(obj) {
     if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
@@ -949,7 +949,6 @@
       ctx.translate(-width / 2 + tx, -height / 2 + ty);
     }
 
-    ctx.imageSmoothingEnabled = false;
     ctx.drawImage(this.properties.image, x, y, imageData.width * xs, imageData.height * ys);
 
     if (this.options.viewport.type === 'circle') {
@@ -1210,4 +1209,4 @@
 
   return Cropme;
 
-})));
+}));
