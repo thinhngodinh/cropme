@@ -2,10 +2,10 @@
  * cropme v1.4.2
  * https://shpontex.github.io/cropme
  *
- * Copyright 2019 shpontex
+ * Copyright 2020 shpontex
  * Released under the MIT license
  *
- * Date: 2019-12-11T10:25:40.455Z
+ * Date: 2020-01-08T08:57:16.338Z
  */
 
 (function (global, factory) {
