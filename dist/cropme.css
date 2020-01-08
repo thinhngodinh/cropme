@@ -5,7 +5,7 @@
  * Copyright 2020 shpontex
  * Released under the MIT license
  *
- * Date: 2020-01-08T08:57:16.338Z
+ * Date: 2020-01-08T09:04:25.286Z
  */
 .cropme-wrapper {
   width: 100%;
@@ -42,18 +42,20 @@
 
 .cropme-slider, .cropme-rotation-slider {
   text-align: center; }
-  .cropme-slider input:disabled, .cropme-rotation-slider input:disabled {
-    opacity: 0.5; }
-  .cropme-slider input::-webkit-slider-runnable-track, .cropme-rotation-slider input::-webkit-slider-runnable-track {
-    height: 3px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 3px; }
-  .cropme-slider input::-webkit-slider-thumb, .cropme-rotation-slider input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background: #ddd;
-    margin-top: -6px; }
-  .cropme-slider input:focus, .cropme-rotation-slider input:focus {
-    outline: none; }
+  .cropme-slider input, .cropme-rotation-slider input {
+    -webkit-appearance: media-volume-slider; }
+    .cropme-slider input:disabled, .cropme-rotation-slider input:disabled {
+      opacity: 0.5; }
+    .cropme-slider input::-webkit-slider-runnable-track, .cropme-rotation-slider input::-webkit-slider-runnable-track {
+      height: 3px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 3px; }
+    .cropme-slider input::-webkit-slider-thumb, .cropme-rotation-slider input::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      height: 16px;
+      width: 16px;
+      border-radius: 50%;
+      background: #ddd;
+      margin-top: -6px; }
+    .cropme-slider input:focus, .cropme-rotation-slider input:focus {
+      outline: none; }
